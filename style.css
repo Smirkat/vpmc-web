@@ -1,0 +1,43 @@
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.tab {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab.active {
+    background-color: #CCC
+}
+
+.tab:hover {
+    background-color: #AAA
+}
+
+.tab-content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
